@@ -1,12 +1,12 @@
 export default function Note({...details}) {
 
     const section = details.section
-    const c = details.class
+    const grade = details.grade
 
     return (
         <>
         <p>{section}</p>
-        <p>{c}</p>
+        <p>{grade}</p>
         </>
     )
 }

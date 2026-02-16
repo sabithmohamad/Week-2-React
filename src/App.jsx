@@ -10,7 +10,7 @@ import Button from './components/Button'
 function App() {
 
   const details = {section:"abcwrf",
-    class:"A"
+    grade:"A"
   }
 
   const cardData = [
